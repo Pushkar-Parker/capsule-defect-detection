@@ -6,7 +6,7 @@ from anomalib import TaskType
 from anomalib.deploy import ExportType
 
 # Defining train function
-def train(images_path: str, save_path: str):
+def train(images_path: str, save_path: str): # Takes in train images and save paths
 
     # Defining dataset
     dataset = Folder(
